@@ -1,6 +1,8 @@
-# Datasets for COVID data
+![Datasets for Statistical Methods](DSM.png)
 
-What follows, is a list of datasets that can be utilised for the COVID task or for any similar infectious deceases research.
+# Datasets for Machine Learning Models
+
+What follows, is a list of datasets that can be utilised for a variety of statistical research tasks.
 
 ## 1. Demographic Data (2011 census population survey)
 
