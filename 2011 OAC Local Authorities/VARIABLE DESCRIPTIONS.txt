@@ -1,0 +1,130 @@
+#############################################
+### 2011 OAC LOOKUP VARIABLE DESCRIPTIONS ###
+#############################################
+
+The following list provides a brief summary of the variables provided in the 2011 OAC Lookups. 
+
+Note: Some of variables report squared Euclidean distance (SED) values. The squared Euclidean distance is the dissimilarity measure used as part of the k-means clustering algorithm that created the 2011 OAC. The larger the value reported, the more dissimilar that Output Area (OA) or Small Area (SA) is to that particular Supergroup/Group/Subgroup cluster centroid.
+
+OA/SA or OA		The Output Area or Small Area code		
+LOCAL_AUTHORITY_CODE	The code of the Local Authority or equivalent
+LOCAL_AUTHORITY_NAME	The name of the Local Authority or equivalent
+REGION_OR_COUNTRY_CODE	The code of the English region, Wales, Scotland or Northern Ireland
+REGION_OR_COUNTRY_NAME	The name of the English region, Wales, Scotland or Northern Ireland
+POPULATION		The population of that OA or SA on the 27th March 2011		
+SPRGRP			The 2011 OAC Supergroup code assignment to that OA or SA
+GRP			The 2011 OAC Group code assignment to that OA or SA
+SUBGRP			The 2011 OAC Subgroup code assignment to that OA or SA
+SPR_SED			The squared Euclidean distance of that OA or SA to the assigned Supergroup cluster centroid
+GRP_SED			The squared Euclidean distance of that OA or SA to the assigned Group cluster centroid
+SUB_SED			The squared Euclidean distance of that OA or SA to the assigned Subgroup cluster centroid
+SPR1_SED		The squared Euclidean distance of that OA or SA to the cluster centroid of Supergroup 1
+SPR2_SED		The squared Euclidean distance of that OA or SA to the cluster centroid of Supergroup 2
+SPR3_SED		The squared Euclidean distance of that OA or SA to the cluster centroid of Supergroup 3
+SPR4_SED		The squared Euclidean distance of that OA or SA to the cluster centroid of Supergroup 4
+SPR5_SED		The squared Euclidean distance of that OA or SA to the cluster centroid of Supergroup 5
+SPR6_SED		The squared Euclidean distance of that OA or SA to the cluster centroid of Supergroup 6
+SPR7_SED		The squared Euclidean distance of that OA or SA to the cluster centroid of Supergroup 7
+SPR8_SED		The squared Euclidean distance of that OA or SA to the cluster centroid of Supergroup 8
+GRP1a_SED		The squared Euclidean distance of that OA or SA to the cluster centroid of Group 1a (Only applicable if the OA or SA belongs to Supergroup 1)
+GRP1b_SED		The squared Euclidean distance of that OA or SA to the cluster centroid of Group 1b (Only applicable if the OA or SA belongs to Supergroup 1)	
+GRP1c_SED		The squared Euclidean distance of that OA or SA to the cluster centroid of Group 1c (Only applicable if the OA or SA belongs to Supergroup 1)
+GRP2a_SED		The squared Euclidean distance of that OA or SA to the cluster centroid of Group 2a (Only applicable if the OA or SA belongs to Supergroup 2)
+GRP2b_SED		The squared Euclidean distance of that OA or SA to the cluster centroid of Group 2b (Only applicable if the OA or SA belongs to Supergroup 2)
+GRP2c_SED		The squared Euclidean distance of that OA or SA to the cluster centroid of Group 2c (Only applicable if the OA or SA belongs to Supergroup 2)
+GRP2d_SED		The squared Euclidean distance of that OA or SA to the cluster centroid of Group 2d (Only applicable if the OA or SA belongs to Supergroup 2)
+GRP3a_SED		The squared Euclidean distance of that OA or SA to the cluster centroid of Group 3a (Only applicable if the OA or SA belongs to Supergroup 3)
+GRP3b_SED		The squared Euclidean distance of that OA or SA to the cluster centroid of Group 3b (Only applicable if the OA or SA belongs to Supergroup 3)
+GRP3c_SED		The squared Euclidean distance of that OA or SA to the cluster centroid of Group 3c (Only applicable if the OA or SA belongs to Supergroup 3)
+GRP3d_SED		The squared Euclidean distance of that OA or SA to the cluster centroid of Group 3d (Only applicable if the OA or SA belongs to Supergroup 3)
+GRP4a_SED		The squared Euclidean distance of that OA or SA to the cluster centroid of Group 4a (Only applicable if the OA or SA belongs to Supergroup 4)
+GRP4b_SED		The squared Euclidean distance of that OA or SA to the cluster centroid of Group 4b (Only applicable if the OA or SA belongs to Supergroup 4)
+GRP4c_SED		The squared Euclidean distance of that OA or SA to the cluster centroid of Group 4c (Only applicable if the OA or SA belongs to Supergroup 4)
+GRP5a_SED		The squared Euclidean distance of that OA or SA to the cluster centroid of Group 5a (Only applicable if the OA or SA belongs to Supergroup 5)
+GRP5b_SED		The squared Euclidean distance of that OA or SA to the cluster centroid of Group 5b (Only applicable if the OA or SA belongs to Supergroup 5)
+GRP6a_SED		The squared Euclidean distance of that OA or SA to the cluster centroid of Group 6a (Only applicable if the OA or SA belongs to Supergroup 6)
+GRP6b_SED		The squared Euclidean distance of that OA or SA to the cluster centroid of Group 6b (Only applicable if the OA or SA belongs to Supergroup 6)
+GRP7a_SED		The squared Euclidean distance of that OA or SA to the cluster centroid of Group 7a (Only applicable if the OA or SA belongs to Supergroup 7)
+GRP7b_SED		The squared Euclidean distance of that OA or SA to the cluster centroid of Group 7b (Only applicable if the OA or SA belongs to Supergroup 7)
+GRP7c_SED		The squared Euclidean distance of that OA or SA to the cluster centroid of Group 7c (Only applicable if the OA or SA belongs to Supergroup 7)
+GRP7d_SED		The squared Euclidean distance of that OA or SA to the cluster centroid of Group 7d (Only applicable if the OA or SA belongs to Supergroup 7)
+GRP8a_SED		The squared Euclidean distance of that OA or SA to the cluster centroid of Group 8a (Only applicable if the OA or SA belongs to Supergroup 8)
+GRP8b_SED		The squared Euclidean distance of that OA or SA to the cluster centroid of Group 8b (Only applicable if the OA or SA belongs to Supergroup 8)
+GRP8c_SED		The squared Euclidean distance of that OA or SA to the cluster centroid of Group 8c (Only applicable if the OA or SA belongs to Supergroup 8)
+GRP8d_SED		The squared Euclidean distance of that OA or SA to the cluster centroid of Group 8d (Only applicable if the OA or SA belongs to Supergroup 8)
+SUB1a1_SED		The squared Euclidean distance of that OA or SA to the cluster centroid of Subgroup 1a1 (Only applicable if the OA or SA belongs to Group 1a)
+SUB1a2_SED		The squared Euclidean distance of that OA or SA to the cluster centroid of Subgroup 1a2 (Only applicable if the OA or SA belongs to Group 1a)
+SUB1a3_SED		The squared Euclidean distance of that OA or SA to the cluster centroid of Subgroup 1a3 (Only applicable if the OA or SA belongs to Group 1a)
+SUB1a4_SED		The squared Euclidean distance of that OA or SA to the cluster centroid of Subgroup 1a4 (Only applicable if the OA or SA belongs to Group 1a)
+SUB1b1_SED		The squared Euclidean distance of that OA or SA to the cluster centroid of Subgroup 1b1 (Only applicable if the OA or SA belongs to Group 1b)
+SUB1b2_SED		The squared Euclidean distance of that OA or SA to the cluster centroid of Subgroup 1b2 (Only applicable if the OA or SA belongs to Group 1b)
+SUB1b3_SED		The squared Euclidean distance of that OA or SA to the cluster centroid of Subgroup 1b3 (Only applicable if the OA or SA belongs to Group 1b)
+SUB1c1_SED		The squared Euclidean distance of that OA or SA to the cluster centroid of Subgroup 1c1 (Only applicable if the OA or SA belongs to Group 1c)
+SUB1c2_SED		The squared Euclidean distance of that OA or SA to the cluster centroid of Subgroup 1c2 (Only applicable if the OA or SA belongs to Group 1c)
+SUB1c3_SED		The Euclidean distance of that OA or SA to the cluster centroid of Subgroup 1c3 (Only applicable if the OA or SA belongs to Group 1c)
+SUB2a1_SED		The Euclidean distance of that OA or SA to the cluster centroid of Subgroup 2a1 (Only applicable if the OA or SA belongs to Group 2a)
+SUB2a2_SED		The Euclidean distance of that OA or SA to the cluster centroid of Subgroup 2a2 (Only applicable if the OA or SA belongs to Group 2a)
+SUB2a3_SED		The Euclidean distance of that OA or SA to the cluster centroid of Subgroup 2a3 (Only applicable if the OA or SA belongs to Group 2a)
+SUB2b1_SED		The Euclidean distance of that OA or SA to the cluster centroid of Subgroup 2b1 (Only applicable if the OA or SA belongs to Group 2b)
+SUB2b2_SED		The Euclidean distance of that OA or SA to the cluster centroid of Subgroup 2b2 (Only applicable if the OA or SA belongs to Group 2b)
+SUB2c1_SED		The Euclidean distance of that OA or SA to the cluster centroid of Subgroup 2c1 (Only applicable if the OA or SA belongs to Group 2c)
+SUB2c2_SED		The Euclidean distance of that OA or SA to the cluster centroid of Subgroup 2c2 (Only applicable if the OA or SA belongs to Group 2c)
+SUB2c3_SED		The Euclidean distance of that OA or SA to the cluster centroid of Subgroup 2c3 (Only applicable if the OA or SA belongs to Group 2c)
+SUB2d1_SED		The Euclidean distance of that OA or SA to the cluster centroid of Subgroup 2d1 (Only applicable if the OA or SA belongs to Group 2d)
+SUB2d2_SED		The Euclidean distance of that OA or SA to the cluster centroid of Subgroup 2d2 (Only applicable if the OA or SA belongs to Group 2d)
+SUB2d3_SED		The Euclidean distance of that OA or SA to the cluster centroid of Subgroup 2d3 (Only applicable if the OA or SA belongs to Group 2d)
+SUB3a1_SED		The Euclidean distance of that OA or SA to the cluster centroid of Subgroup 3a1 (Only applicable if the OA or SA belongs to Group 3a)
+SUB3a2_SED		The Euclidean distance of that OA or SA to the cluster centroid of Subgroup 3a2 (Only applicable if the OA or SA belongs to Group 3a)
+SUB3b1_SED		The Euclidean distance of that OA or SA to the cluster centroid of Subgroup 3b1 (Only applicable if the OA or SA belongs to Group 3b)
+SUB3b2_SED		The Euclidean distance of that OA or SA to the cluster centroid of Subgroup 3b2 (Only applicable if the OA or SA belongs to Group 3b)
+SUB3b3_SED		The Euclidean distance of that OA or SA to the cluster centroid of Subgroup 3b3 (Only applicable if the OA or SA belongs to Group 3b)
+SUB3c1_SED		The Euclidean distance of that OA or SA to the cluster centroid of Subgroup 3c1 (Only applicable if the OA or SA belongs to Group 3c)
+SUB3c2_SED		The Euclidean distance of that OA or SA to the cluster centroid of Subgroup 3c2 (Only applicable if the OA or SA belongs to Group 3c)
+SUB3d1_SED		The Euclidean distance of that OA or SA to the cluster centroid of Subgroup 3d1 (Only applicable if the OA or SA belongs to Group 3d)
+SUB3d2_SED		The Euclidean distance of that OA or SA to the cluster centroid of Subgroup 3d2 (Only applicable if the OA or SA belongs to Group 3d)
+SUB3d3_SED		The Euclidean distance of that OA or SA to the cluster centroid of Subgroup 3d3 (Only applicable if the OA or SA belongs to Group 3d)
+SUB4a1_SED		The Euclidean distance of that OA or SA to the cluster centroid of Subgroup 4a1 (Only applicable if the OA or SA belongs to Group 4a)
+SUB4a2_SED		The Euclidean distance of that OA or SA to the cluster centroid of Subgroup 4a2 (Only applicable if the OA or SA belongs to Group 4a)
+SUB4a3_SED		The Euclidean distance of that OA or SA to the cluster centroid of Subgroup 4a3 (Only applicable if the OA or SA belongs to Group 4a)
+SUB4b1_SED		The Euclidean distance of that OA or SA to the cluster centroid of Subgroup 4b1 (Only applicable if the OA or SA belongs to Group 4b)
+SUB4b2_SED		The Euclidean distance of that OA or SA to the cluster centroid of Subgroup 4b2 (Only applicable if the OA or SA belongs to Group 4b)
+SUB4c1_SED		The Euclidean distance of that OA or SA to the cluster centroid of Subgroup 4c1 (Only applicable if the OA or SA belongs to Group 4c)
+SUB4c2_SED		The Euclidean distance of that OA or SA to the cluster centroid of Subgroup 4c2 (Only applicable if the OA or SA belongs to Group 4c)
+SUB4c3_SED		The Euclidean distance of that OA or SA to the cluster centroid of Subgroup 4c3 (Only applicable if the OA or SA belongs to Group 4c)
+SUB5a1_SED		The Euclidean distance of that OA or SA to the cluster centroid of Subgroup 5a1 (Only applicable if the OA or SA belongs to Group 5a)
+SUB5a2_SED		The Euclidean distance of that OA or SA to the cluster centroid of Subgroup 5a2 (Only applicable if the OA or SA belongs to Group 5a)
+SUB5a3_SED		The Euclidean distance of that OA or SA to the cluster centroid of Subgroup 5a3 (Only applicable if the OA or SA belongs to Group 5a)
+SUB5b1_SED		The Euclidean distance of that OA or SA to the cluster centroid of Subgroup 5b1 (Only applicable if the OA or SA belongs to Group 5b)
+SUB5b2_SED		The Euclidean distance of that OA or SA to the cluster centroid of Subgroup 5b2 (Only applicable if the OA or SA belongs to Group 5b)
+SUB5b3_SED		The Euclidean distance of that OA or SA to the cluster centroid of Subgroup 5b3 (Only applicable if the OA or SA belongs to Group 5b)
+SUB6a1_SED		The Euclidean distance of that OA or SA to the cluster centroid of Subgroup 6a1 (Only applicable if the OA or SA belongs to Group 6a)
+SUB6a2_SED		The Euclidean distance of that OA or SA to the cluster centroid of Subgroup 6a2 (Only applicable if the OA or SA belongs to Group 6a)
+SUB6a3_SED		The Euclidean distance of that OA or SA to the cluster centroid of Subgroup 6a3 (Only applicable if the OA or SA belongs to Group 6a)
+SUB6a4_SED		The Euclidean distance of that OA or SA to the cluster centroid of Subgroup 6a4 (Only applicable if the OA or SA belongs to Group 6a)
+SUB6b1_SED		The Euclidean distance of that OA or SA to the cluster centroid of Subgroup 6b1 (Only applicable if the OA or SA belongs to Group 6b)
+SUB6b2_SED		The Euclidean distance of that OA or SA to the cluster centroid of Subgroup 6b2 (Only applicable if the OA or SA belongs to Group 6b)
+SUB6b3_SED		The Euclidean distance of that OA or SA to the cluster centroid of Subgroup 6b3 (Only applicable if the OA or SA belongs to Group 6b)
+SUB6b4_SED		The Euclidean distance of that OA or SA to the cluster centroid of Subgroup 6b4 (Only applicable if the OA or SA belongs to Group 6b)
+SUB7a1_SED		The Euclidean distance of that OA or SA to the cluster centroid of Subgroup 7a1 (Only applicable if the OA or SA belongs to Group 7a)
+SUB7a2_SED		The Euclidean distance of that OA or SA to the cluster centroid of Subgroup 7a2 (Only applicable if the OA or SA belongs to Group 7a)
+SUB7a3_SED		The Euclidean distance of that OA or SA to the cluster centroid of Subgroup 7a3 (Only applicable if the OA or SA belongs to Group 7a)
+SUB7b1_SED		The Euclidean distance of that OA or SA to the cluster centroid of Subgroup 7b1 (Only applicable if the OA or SA belongs to Group 7b)
+SUB7b2_SED		The Euclidean distance of that OA or SA to the cluster centroid of Subgroup 7b2 (Only applicable if the OA or SA belongs to Group 7b)
+SUB7b3_SED		The Euclidean distance of that OA or SA to the cluster centroid of Subgroup 7b3 (Only applicable if the OA or SA belongs to Group 7b)
+SUB7c1_SED		The Euclidean distance of that OA or SA to the cluster centroid of Subgroup 7c1 (Only applicable if the OA or SA belongs to Group 7c)
+SUB7c2_SED		The Euclidean distance of that OA or SA to the cluster centroid of Subgroup 7c2 (Only applicable if the OA or SA belongs to Group 7c)
+SUB7c3_SED		The Euclidean distance of that OA or SA to the cluster centroid of Subgroup 7c3 (Only applicable if the OA or SA belongs to Group 7c)
+SUB7d1_SED		The Euclidean distance of that OA or SA to the cluster centroid of Subgroup 7d1 (Only applicable if the OA or SA belongs to Group 7d)
+SUB7d2_SED		The Euclidean distance of that OA or SA to the cluster centroid of Subgroup 7d2 (Only applicable if the OA or SA belongs to Group 7d)
+SUB7d3_SED		The Euclidean distance of that OA or SA to the cluster centroid of Subgroup 7d3 (Only applicable if the OA or SA belongs to Group 7d)
+SUB7d4_SED		The Euclidean distance of that OA or SA to the cluster centroid of Subgroup 7d4 (Only applicable if the OA or SA belongs to Group 7d)
+SUB8a1_SED		The Euclidean distance of that OA or SA to the cluster centroid of Subgroup 8a1 (Only applicable if the OA or SA belongs to Group 8a)
+SUB8a2_SED		The Euclidean distance of that OA or SA to the cluster centroid of Subgroup 8a2 (Only applicable if the OA or SA belongs to Group 8a)
+SUB8b1_SED		The Euclidean distance of that OA or SA to the cluster centroid of Subgroup 8b1 (Only applicable if the OA or SA belongs to Group 8b)
+SUB8b2_SED		The Euclidean distance of that OA or SA to the cluster centroid of Subgroup 8b2 (Only applicable if the OA or SA belongs to Group 8b)
+SUB8c1_SED		The Euclidean distance of that OA or SA to the cluster centroid of Subgroup 8c1 (Only applicable if the OA or SA belongs to Group 8c)
+SUB8c2_SED		The Euclidean distance of that OA or SA to the cluster centroid of Subgroup 8c2 (Only applicable if the OA or SA belongs to Group 8c)
+SUB8c3_SED		The Euclidean distance of that OA or SA to the cluster centroid of Subgroup 8c3 (Only applicable if the OA or SA belongs to Group 8c)
+SUB8d1_SED		The Euclidean distance of that OA or SA to the cluster centroid of Subgroup 8d1 (Only applicable if the OA or SA belongs to Group 8d)
+SUB8d2_SED		The Euclidean distance of that OA or SA to the cluster centroid of Subgroup 8d2 (Only applicable if the OA or SA belongs to Group 8d)
+SUB8d3_SED		The Euclidean distance of that OA or SA to the cluster centroid of Subgroup 8d3 (Only applicable if the OA or SA belongs to Group 8d)
