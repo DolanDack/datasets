@@ -35,10 +35,16 @@ The final dataset has been constructed from these ONS datasets:
 * DC7101EWla - Method of travel to work
 * UKMIG001 - Migration by sex by age
 * DWP Benefits (https://www.gov.uk/government/collections/dwp-statistical-summaries)
-* Mortality and birth rates
+* Mortality and birth rates (Life Events)
 * Index of Deprivation (https://www.gov.uk/government/statistics/english-indices-of-deprivation-2019): Caution is required since Wales and England values are NOT comparable.
 * Annual Survey of Hours and Earnings
 * 2011 Area Classification for Output Areas (https://geogale.github.io/2011OAC/)
+* Regional gross domestic product local authorities (https://www.ons.gov.uk/economy/grossdomesticproductgdp/datasets/regionalgrossdomesticproductlocalauthorities)
+* Regional gross value added (balanced) by industry: local authorities
+* Family spending in the UK
+* UK House Price Index (https://www.gov.uk/government/statistical-data-sets/uk-house-price-index-data-downloads-february-2020)
+* Household Expenditure: A6, A35 (https://www.ons.gov.uk/peoplepopulationandcommunity/personalandhouseholdfinances/expenditure/bulletins/familyspendingintheuk/financialyearending2018)
+* Insolvency Statistics (https://www.gov.uk/government/statistics/individual-insolvencies-by-location-age-and-gender-england-and-wales-2018)
 
 
 ## 2. Table with information about commuting to work (Local Authority District Level)
