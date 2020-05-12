@@ -34,17 +34,19 @@ The final dataset has been constructed from these ONS datasets:
 * KS601EW to KS603EW - Economic activity
 * DC7101EWla - Method of travel to work
 * UKMIG001 - Migration by sex by age
-* DWP Benefits (https://www.gov.uk/government/collections/dwp-statistical-summaries)
+* DWP Benefits ([link](https://www.gov.uk/government/collections/dwp-statistical-summaries))
 * Mortality and birth rates (Life Events)
-* Index of Deprivation (https://www.gov.uk/government/statistics/english-indices-of-deprivation-2019): Caution is required since Wales and England values are NOT comparable.
+* Index of Deprivation ([link](https://www.gov.uk/government/statistics/english-indices-of-deprivation-2019)): Caution is required since Wales and England values are NOT comparable.
 * Annual Survey of Hours and Earnings
-* 2011 Area Classification for Output Areas (https://geogale.github.io/2011OAC/)
-* Regional gross domestic product local authorities (https://www.ons.gov.uk/economy/grossdomesticproductgdp/datasets/regionalgrossdomesticproductlocalauthorities)
+* 2011 Area Classification for Output Areas ([link](https://geogale.github.io/2011OAC/))
+* Regional gross domestic product local authorities ([link](https://www.ons.gov.uk/economy/grossdomesticproductgdp/datasets/regionalgrossdomesticproductlocalauthorities))
 * Regional gross value added (balanced) by industry: local authorities
 * Family spending in the UK
-* UK House Price Index (https://www.gov.uk/government/statistical-data-sets/uk-house-price-index-data-downloads-february-2020)
-* Household Expenditure: A6, A35 (https://www.ons.gov.uk/peoplepopulationandcommunity/personalandhouseholdfinances/expenditure/bulletins/familyspendingintheuk/financialyearending2018)
-* Insolvency Statistics (https://www.gov.uk/government/statistics/individual-insolvencies-by-location-age-and-gender-england-and-wales-2018)
+* UK House Price Index ([link](https://www.gov.uk/government/statistical-data-sets/uk-house-price-index-data-downloads-february-2020))
+* Household Expenditure: A6, A35 ([link](https://www.ons.gov.uk/peoplepopulationandcommunity/personalandhouseholdfinances/expenditure/bulletins/familyspendingintheuk/financialyearending2018))
+* Insolvency Statistics ([link](https://www.gov.uk/government/statistics/individual-insolvencies-by-location-age-and-gender-england-and-wales-2018))
+* Health Profiles ([link](https://fingertips.phe.org.uk/profile/health-profiles/data#page/0/gid/1938132696/pat/6/par/E12000003/ati/101/are/E08000016/cid/4/tbm/1/page-options/ovw-do-0))
+* Business Activity ([link](https://www.ons.gov.uk/businessindustryandtrade/business/activitysizeandlocation/bulletins/ukbusinessactivitysizeandlocation/2019))
 
 
 ## 2. Table with information about commuting to work (Local Authority District Level)
@@ -93,7 +95,9 @@ public health interventions (From Abstract, [Klepac et al.](https://www.medrxiv.
 
 6. [Social contact data for UK](https://zenodo.org/record/1409507#.XpZj2W57l24)
 
-## 5. Google Social Mobility Reports
+## 5. Mobility Reports
+
+### Google AI
 
 Google AI and Google Health have made public their mobility data gathered across 140 countries. Specifically, for UK we have at local authority level information for the following ([Github](https://github.com/datasciencecampus/google-mobility-reports-data))
 
@@ -104,12 +108,25 @@ Google AI and Google Health have made public their mobility data gathered across
 5. Transit stations
 6. Workplace
 
+### Apple Mobility Reports
+
+Apple has also made public the mobility reports (on a higher level than Google though) based on iPhone users.
+
+Data source is the special Apple COVID [website](https://www.apple.com/covid19/mobility)
+
+
 ## 6. R Library for SIM
 
 [socialmixr](https://rdrr.io/cran/socialmixr/f/vignettes/introduction.Rmd) is an R package to derive social mixing matrices from survey data. These are particularly useful for age-structured infectious disease models. For background on age-specific mixing matrices and what data inform them, see, for example, the paper on by [Mossong et al.](https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.0050074)
 
 
+## 7. COVID UK focused Data
 
+The ONS offers LAD level data, [link](https://coronavirus.data.gov.uk/#category=ltlas&map=rate). This is what has been used.
+
+The Local Government Association includes detailed daily data fro COVID-19 cases in UK. Numbers of cases are collated by Public Health England. Case data is based on the home address of cases reported to PHE by diagnostic laboratories and matched to ONS administrative geography codes and names to generate geographic case counts. The data can be found [here](https://lginform.local.gov.uk/reports/view/lga-research/covid-19-case-tracker). The data are saved inside the COVID-19 folder and the Local Authority Association subfolder.
+
+The data include information on E06, E08, E09 and E10 levels ($n=151$ administrative regions). In other words, they include Unitary Authorities, Metropolitan Districts, London Boroughs and Counties but not the Non-metropolitan Districts. All the previous, including the Non-metropolitan Districts constitute the LAD ($n=343$) that the NOMIS data is based on. For more information check the [ONS Geoportal](https://geoportal.statistics.gov.uk/datasets/register-of-geographic-codes-june-2019-for-the-united-kingdom).
 
 
 
