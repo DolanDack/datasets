@@ -1,0 +1,3 @@
+In the https://geoportal.statistics.gov.uk/
+search for LAD (Dec 2016) Generalised Clipped Boundaries in the UK (WGS84)
+and download the Shapefile
