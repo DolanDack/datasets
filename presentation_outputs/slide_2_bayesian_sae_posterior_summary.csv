@@ -1,0 +1,25 @@
+parameter,mean,sd,hdi_3%,hdi_97%,mcse_mean,mcse_sd,ess_bulk,ess_tail,r_hat
+sigma_region[log_spending_intensity],0.154,0.047,0.088,0.247,0.001,0.001,2248.955,2868.917,1.001
+sigma_region[alr__Food & non-alcoholic drinks],0.091,0.027,0.048,0.141,0.001,0.001,1987.18,2584.573,1.001
+"sigma_region[alr__Alcoholic drink, tobacco & narcotics]",0.203,0.06,0.109,0.312,0.001,0.001,1874.561,2771.764,1.003
+sigma_region[alr__Clothing & footwear],0.133,0.043,0.068,0.211,0.001,0.001,2051.357,3095.089,1.0
+"sigma_region[alr__Housing (net), fuel & power]",0.208,0.061,0.117,0.321,0.001,0.002,2038.18,2631.914,1.002
+sigma_region[alr__Household goods & services],0.167,0.05,0.094,0.259,0.001,0.001,2274.441,2659.832,1.0
+sigma_region[alr__Health],0.206,0.066,0.103,0.329,0.001,0.001,2414.619,2721.963,1.001
+sigma_region[alr__Transport],0.094,0.029,0.049,0.145,0.001,0.001,2189.531,3063.945,1.001
+sigma_region[alr__Communication],0.098,0.03,0.052,0.15,0.001,0.001,2514.084,3059.718,1.002
+sigma_region[alr__Recreation & culture],0.168,0.053,0.081,0.258,0.001,0.001,2342.356,2748.42,1.003
+sigma_region[alr__Education],0.447,0.16,0.159,0.737,0.004,0.003,1915.588,2313.964,1.0
+sigma_region[alr__Restaurants & hotels],0.128,0.045,0.057,0.209,0.001,0.001,2054.661,2742.232,1.001
+sigma_y[log_spending_intensity],0.064,0.003,0.059,0.069,0.0,0.0,4614.18,2589.438,1.002
+sigma_y[alr__Food & non-alcoholic drinks],0.04,0.002,0.037,0.043,0.0,0.0,4539.134,2767.167,1.0
+"sigma_y[alr__Alcoholic drink, tobacco & narcotics]",0.079,0.003,0.073,0.085,0.0,0.0,4462.662,2720.982,1.001
+sigma_y[alr__Clothing & footwear],0.077,0.003,0.071,0.083,0.0,0.0,4038.916,2300.753,1.002
+"sigma_y[alr__Housing (net), fuel & power]",0.076,0.003,0.071,0.082,0.0,0.0,5310.243,2377.496,1.0
+sigma_y[alr__Household goods & services],0.056,0.002,0.051,0.06,0.0,0.0,4576.698,3239.661,1.001
+sigma_y[alr__Health],0.152,0.006,0.141,0.165,0.0,0.0,4182.192,2503.597,1.002
+sigma_y[alr__Transport],0.046,0.002,0.043,0.05,0.0,0.0,4400.714,2939.688,1.0
+sigma_y[alr__Communication],0.047,0.002,0.044,0.051,0.0,0.0,4546.362,2402.354,1.003
+sigma_y[alr__Recreation & culture],0.097,0.004,0.089,0.105,0.0,0.0,4702.502,2634.965,1.0
+sigma_y[alr__Education],0.561,0.023,0.519,0.605,0.0,0.0,4339.55,2498.438,1.0
+sigma_y[alr__Restaurants & hotels],0.096,0.004,0.089,0.103,0.0,0.0,4431.425,2793.788,1.001

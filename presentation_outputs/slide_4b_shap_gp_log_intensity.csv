@@ -1,0 +1,21 @@
+feature,mean_abs_shap
+region_South East,0.027048549236032848
+Persona 5,0.010680392037745994
+region_West Midlands,0.008116035020665591
+region_North East,0.007092003278648574
+Average number of bedrooms per household,0.005513914450333651
+region_North West,0.004291917011581959
+Persona 6,0.0039034449342151513
+T.gva,0.0036537097364587184
+40km and over,0.0034729792285010065
+Persona 7,0.003384911426291311
+Persona 8,0.0032914849619071437
+Average number of rooms per household,0.0029967138750716248
+Percentage of physically active adults,0.002525012404485199
+F.number,0.0017311325596117103
+ABDE.gva,0.0014583036806345723
+IMD - Proportion of LSOAs in most deprived 10% nationally,0.0014555207715917882
+IDAOPI - Average score,0.0013026866986803067
+IMD - Average score,0.0012494133046483725
+Percentage of adults (aged 18+) classified as overweight or obese,0.0011555844021788016
+region_Wales,0.0010067544707956632

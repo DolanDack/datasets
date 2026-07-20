@@ -1,0 +1,6 @@
+Theme,Finding
+Data,"324 LADs, 139 predictive features, 12 spending categories, 35 raw expenditure profiles after correction."
+Bayesian SAE,Partial pooling provides uncertainty-aware LAD estimates and separates residual from regional uncertainty.
+DML causality,Higher median income is associated with higher recreation/restaurants/transport shares and lower food/housing shares under the stated adjustment sets.
+GP benchmark,Separate-output GP provides the most stable spending-composition benchmark; LMC improves regional intensity transfer but weakens composition/profile holdout in the current run.
+Limitations,Area-level observational estimates; no individual household inference; causal claims depend on DAG and adjustment assumptions.

@@ -1,0 +1,21 @@
+feature,mean_abs_shap
+Persona 5,0.003499463636615295
+Median Income,0.003211607120964298
+region_South East,0.0032112722078649534
+Mean Income,0.0022969920617895356
+region_West Midlands,0.001615649331714326
+region_East of England,0.0015422865314283966
+IMD - Rank of average score,0.0011211456497408436
+region_London,0.0010858937155027652
+Average number of bedrooms per household,0.0008989663848829345
+40km and over,0.0008559283424159718
+C.gva,0.0004907378913375034
+Persona 4,0.0004850924389755435
+Average number of rooms per household,0.00042437344195366477
+"Train, underground, metro, light rail or tram",0.0004123373295454439
+10km to less than 40km,0.00038373126531511835
+Black/African/Caribbean/Black British,0.00036659272987791885
+Average household size,0.00020116868602492632
+region_North East,0.00019711139701925154
+region_North West,0.0001402991525442185
+Mixed/multiple ethnic groups,0.00013282170226840384
